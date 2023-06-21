@@ -1,0 +1,4 @@
+# The BornAgain specular fitting example, a Ti-Ni multilayer
+# https://github.com/scgmlz/BornAgain/blob/master/Examples/python/fitting/ex03_ExtendedExamples/specular/FitSpecularBasics.py
+layers/test1.layers
+data/test1.dat

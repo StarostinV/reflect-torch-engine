@@ -1,0 +1,5 @@
+# a three layer system that has an absorption dip in the critical edge
+# examines that correct branch cuts are chosen in complex arithmetic
+# almost identical to test6, except fronting SLD==0.
+layers/test7.layers
+data/test7.dat

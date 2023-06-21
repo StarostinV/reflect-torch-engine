@@ -1,0 +1,26 @@
+
+A series of tests for examining unpolarised reflectivity calculation
+correctness.
+
+Each of the tests is described by a `test*` file in this directory. Those test
+files have a series of header lines that can be used to describe the test, each
+of the header lines is prefixed by #.
+The next line is a string that refers to a file in the `layers` directory,
+which specifies a slab-like model for which the reflectivity needs to be
+calculated.
+The next line is a string that refers to a file in the `data` directory
+containing the validated values against which the reflectivity calculation is
+to be checked. These 'datafiles' will eventually be standard ORSO format, but
+for the time being they are Q (Å**-1), R, [dR (1sd) [, dQ (Å**-1) (1sd)]].
+
+The layer specification file has the layout:
+
+ignored     SLD_fronting ignored      ignored
+thickness_1 SLD_1        iSLD_1       rough_fronting1
+thickness_2 SLD_2        iSLD_2       rough_12
+ignored     SLD_backing  iSLD_backing rough_backing2
+
+
+The `ignored` values exist because the fronting and backing media have no
+thickness. Absorption is also ignored in the fronting medium. The real and
+imaginary parts of the SLD values have units (10**-6 Angstrom**-2).

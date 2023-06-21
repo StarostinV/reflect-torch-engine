@@ -1,0 +1,5 @@
+# a three layer system that has an absorption dip in the critical edge
+# from https://github.com/mdoucet/refl1d_analysis
+# examines that correct branch cuts are chosen in complex arithmetic
+layers/test6.layers
+data/test6.dat

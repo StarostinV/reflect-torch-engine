@@ -1,0 +1,3 @@
+# a four layer system that has absorption
+layers/test0.layers
+data/test0.dat

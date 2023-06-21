@@ -1,0 +1,7 @@
+# The BornAgain specular fitting example, a Ti-Ni multilayer
+# https://github.com/scgmlz/BornAgain/blob/master/Examples/python/fitting/ex03_ExtendedExamples/specular/FitSpecularBasics.py
+# has been resolution smeared to dQ/Q = 0.05 FWHM or 0.0212 1-sigma
+# generated using refnx with pointwise + 10001 points in the gaussian
+# quadrature
+layers/test1.layers
+data/test5.dat
